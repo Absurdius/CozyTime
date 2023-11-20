@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.ConstrainedExecution;
 using UnityEngine;
 
 public enum Direction {
@@ -12,19 +13,21 @@ public enum Direction {
 
 public class CharacterController2D : MonoBehaviour
 {
-    public float speed = 1.0f;
+    public float acceleration = 1.0f;
+    public float MAX_SPEED = 1.0f;
 
     private Transform transform;
     private Vector2 movement = Vector2.zero; 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private Rigidbody2D rigidbody;
 
-    // Start is called before the first frame update
     void Start()
     {
         transform = GetComponent<Transform>();
         this.animator = GetComponent<Animator>();
         this.spriteRenderer = GetComponent<SpriteRenderer>();
+        this.rigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -40,7 +43,12 @@ public class CharacterController2D : MonoBehaviour
 
     private void Move(Vector2 movement)
     {
-        transform.Translate(speed * Time.deltaTime * movement);
+        if(movement.magnitude > 0f && rigidbody.velocity.magnitude < MAX_SPEED) {
+            this.rigidbody.AddForce(movement * rigidbody.mass * acceleration);
+        } else { 
+            this.rigidbody.AddForce(-rigidbody.velocity);
+        }
+
     }
 
     private void SetAnimation()
