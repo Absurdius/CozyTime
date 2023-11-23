@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: e31b5cee5b70ae14283c81f2486ab9f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4944376096763617515
+    second: KitchenAndDiverseAssets-Sheet_0
+  - first:
+      213: 1311361681920973419
+    second: KitchenAndDiverseAssets-Sheet_1
+  - first:
+      213: -8185656850105915303
+    second: KitchenAndDiverseAssets-Sheet_2
+  - first:
+      213: -3244175870304172379
+    second: KitchenAndDiverseAssets-Sheet_3
+  - first:
+      213: 7269314011067614003
+    second: KitchenAndDiverseAssets-Sheet_4
+  - first:
+      213: 5360628048006309503
+    second: KitchenAndDiverseAssets-Sheet_5
+  - first:
+      213: 8865650235647391527
+    second: KitchenAndDiverseAssets-Sheet_6
+  - first:
+      213: 1922051896024546638
+    second: KitchenAndDiverseAssets-Sheet_7
+  - first:
+      213: -1044405713532601
+    second: KitchenAndDiverseAssets-Sheet_8
+  - first:
+      213: 7317043288000038289
+    second: KitchenAndDiverseAssets-Sheet_9
+  - first:
+      213: 2120483377468676242
+    second: KitchenAndDiverseAssets-Sheet_10
+  - first:
+      213: 8845505311308501813
+    second: KitchenAndDiverseAssets-Sheet_11
+  - first:
+      213: 168006682838206394
+    second: KitchenAndDiverseAssets-Sheet_12
+  - first:
+      213: -6899051011510814872
+    second: KitchenAndDiverseAssets-Sheet_13
+  - first:
+      213: -5239831936727150228
+    second: KitchenAndDiverseAssets-Sheet_14
+  - first:
+      213: 2739508655643254066
+    second: KitchenAndDiverseAssets-Sheet_15
+  - first:
+      213: 5013676814448073796
+    second: KitchenAndDiverseAssets-Sheet_16
+  - first:
+      213: -4952595367503934070
+    second: KitchenAndDiverseAssets-Sheet_17
+  - first:
+      213: 1863934856433060912
+    second: KitchenAndDiverseAssets-Sheet_18
+  - first:
+      213: 8854638157989367504
+    second: KitchenAndDiverseAssets-Sheet_19
+  - first:
+      213: -8640095096437549896
+    second: KitchenAndDiverseAssets-Sheet_20
+  - first:
+      213: -4706213626459464640
+    second: KitchenAndDiverseAssets-Sheet_21
+  - first:
+      213: -45835914638923324
+    second: KitchenAndDiverseAssets-Sheet_22
+  - first:
+      213: -6497422008470282914
+    second: KitchenAndDiverseAssets-Sheet_23
+  - first:
+      213: 5962821152752640971
+    second: KitchenAndDiverseAssets-Sheet_24
+  - first:
+      213: 3030493517196131467
+    second: KitchenAndDiverseAssets-Sheet_25
+  - first:
+      213: 7127616261797712102
+    second: KitchenAndDiverseAssets-Sheet_26
+  - first:
+      213: 4737573993637943224
+    second: KitchenAndDiverseAssets-Sheet_27
+  - first:
+      213: -6423316465411296045
+    second: KitchenAndDiverseAssets-Sheet_28
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fd87ce22c026bb0800000000000000
+      internalID: -4944376096763617515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 127
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a55f67084e23210800000000000000
+      internalID: 1311361681920973419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 127
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958a13cd674b66e80800000000000000
+      internalID: -8185656850105915303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 127
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a640adfb3f5af2d0800000000000000
+      internalID: -3244175870304172379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 127
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333847e149ac1e460800000000000000
+      internalID: 7269314011067614003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 127
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76696ecec6c46a40800000000000000
+      internalID: 5360628048006309503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 127
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727fe96caed190b70800000000000000
+      internalID: 8865650235647391527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 127
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4db86614008caa10800000000000000
+      internalID: 1922051896024546638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 127
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74981785e1a4cfff0800000000000000
+      internalID: -1044405713532601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 127
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19506636a1c5b8560800000000000000
+      internalID: 7317043288000038289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 127
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2981422a5687d6d10800000000000000
+      internalID: 2120483377468676242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 111
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533df53173c81ca70800000000000000
+      internalID: 8845505311308501813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 111
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7867a1031e45200800000000000000
+      internalID: 168006682838206394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 111
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867399368a5a140a0800000000000000
+      internalID: -6899051011510814872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 100
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6191a88d906847b0800000000000000
+      internalID: -5239831936727150228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 100
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d59b69b90b40620800000000000000
+      internalID: 2739508655643254066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 116
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c1ac7cf78249540800000000000000
+      internalID: 5013676814448073796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 60
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dcea3d0c8d44bb0800000000000000
+      internalID: -4952595367503934070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 95
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c492a50e60ed910800000000000000
+      internalID: 1863934856433060912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de4395ad7ef1ea70800000000000000
+      internalID: 8854638157989367504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 86
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4de377947381880800000000000000
+      internalID: -8640095096437549896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 37
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cd7cd24ab20beb0800000000000000
+      internalID: -4706213626459464640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 37
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9edfd7a782d5ff0800000000000000
+      internalID: -45835914638923324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 39
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dd25dab1584d5a0800000000000000
+      internalID: -6497422008470282914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 56
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3a10dfe3230c250800000000000000
+      internalID: 5962821152752640971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 39
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c79923cc97e0a20800000000000000
+      internalID: 3030493517196131467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 51
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e010c3f9316ae260800000000000000
+      internalID: 7127616261797712102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b71beb427e3fb140800000000000000
+      internalID: 4737573993637943224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KitchenAndDiverseAssets-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4fd37f4bbcbd6a0800000000000000
+      internalID: -6423316465411296045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KitchenAndDiverseAssets-Sheet_0: -4944376096763617515
+      KitchenAndDiverseAssets-Sheet_1: 1311361681920973419
+      KitchenAndDiverseAssets-Sheet_10: 2120483377468676242
+      KitchenAndDiverseAssets-Sheet_11: 8845505311308501813
+      KitchenAndDiverseAssets-Sheet_12: 168006682838206394
+      KitchenAndDiverseAssets-Sheet_13: -6899051011510814872
+      KitchenAndDiverseAssets-Sheet_14: -5239831936727150228
+      KitchenAndDiverseAssets-Sheet_15: 2739508655643254066
+      KitchenAndDiverseAssets-Sheet_16: 5013676814448073796
+      KitchenAndDiverseAssets-Sheet_17: -4952595367503934070
+      KitchenAndDiverseAssets-Sheet_18: 1863934856433060912
+      KitchenAndDiverseAssets-Sheet_19: 8854638157989367504
+      KitchenAndDiverseAssets-Sheet_2: -8185656850105915303
+      KitchenAndDiverseAssets-Sheet_20: -8640095096437549896
+      KitchenAndDiverseAssets-Sheet_21: -4706213626459464640
+      KitchenAndDiverseAssets-Sheet_22: -45835914638923324
+      KitchenAndDiverseAssets-Sheet_23: -6497422008470282914
+      KitchenAndDiverseAssets-Sheet_24: 5962821152752640971
+      KitchenAndDiverseAssets-Sheet_25: 3030493517196131467
+      KitchenAndDiverseAssets-Sheet_26: 7127616261797712102
+      KitchenAndDiverseAssets-Sheet_27: 4737573993637943224
+      KitchenAndDiverseAssets-Sheet_28: -6423316465411296045
+      KitchenAndDiverseAssets-Sheet_3: -3244175870304172379
+      KitchenAndDiverseAssets-Sheet_4: 7269314011067614003
+      KitchenAndDiverseAssets-Sheet_5: 5360628048006309503
+      KitchenAndDiverseAssets-Sheet_6: 8865650235647391527
+      KitchenAndDiverseAssets-Sheet_7: 1922051896024546638
+      KitchenAndDiverseAssets-Sheet_8: -1044405713532601
+      KitchenAndDiverseAssets-Sheet_9: 7317043288000038289
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
