@@ -46,7 +46,7 @@ public class CharacterController2D : MonoBehaviour
         if(movement.magnitude > 0f && rigidbody.velocity.magnitude < MAX_SPEED) {
             this.rigidbody.AddForce(movement * rigidbody.mass * acceleration);
         } else { 
-            this.rigidbody.AddForce(-rigidbody.velocity);
+            this.rigidbody.AddForce(-rigidbody.velocity * acceleration);
         }
 
     }
