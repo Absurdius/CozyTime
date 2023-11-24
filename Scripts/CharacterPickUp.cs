@@ -17,6 +17,7 @@ public class CharacterPickUp : MonoBehaviour
                 objectInRange.transform.parent = null;
             } else {
                 objectInRange.transform.parent = gameObject.transform;
+
             }
             isCarrying = !isCarrying;
         }

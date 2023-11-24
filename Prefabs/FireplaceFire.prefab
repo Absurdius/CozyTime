@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 1681298307887887654}
   - component: {fileID: 170785371858919922}
   - component: {fileID: 3517304477708262579}
-  - component: {fileID: 3282254551539094886}
   - component: {fileID: 7213598305440230060}
   - component: {fileID: 2301702814918144030}
+  - component: {fileID: 1247298846651133058}
   m_Layer: 0
   m_Name: FireplaceFire
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,18 +109,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3282254551539094886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7740372068447531077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 501d0d4a67972ab4387def727f821331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &7213598305440230060
 Rigidbody2D:
   serializedVersion: 4
@@ -193,3 +181,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.25, y: 6.1735973}
   m_EdgeRadius: 0
+--- !u!114 &1247298846651133058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7740372068447531077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7a0f573557126429568d0495becafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

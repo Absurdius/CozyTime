@@ -11563,6 +11563,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 7663710360228914528, guid: ece018b53a71f1a4cb82c337f0555b6b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2678905
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663710360228914528, guid: ece018b53a71f1a4cb82c337f0555b6b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.8275163
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11598,11 +11606,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074270310364261179, guid: 3b918570370fde749bc4ad815f8d1c6e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.2077346
+      value: -2.45
       objectReference: {fileID: 0}
     - target: {fileID: 8074270310364261179, guid: 3b918570370fde749bc4ad815f8d1c6e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.779456
+      value: -1.31
       objectReference: {fileID: 0}
     - target: {fileID: 8074270310364261179, guid: 3b918570370fde749bc4ad815f8d1c6e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11614,15 +11622,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074270310364261179, guid: 3b918570370fde749bc4ad815f8d1c6e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8074270310364261179, guid: 3b918570370fde749bc4ad815f8d1c6e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8074270310364261179, guid: 3b918570370fde749bc4ad815f8d1c6e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8074270310364261179, guid: 3b918570370fde749bc4ad815f8d1c6e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11664,6 +11672,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 427186901119523306}
   - {fileID: 1481831653}
-  - {fileID: 5000597584749478330}
   - {fileID: 499624181}
   - {fileID: 551221926}
+  - {fileID: 5000597584749478330}

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightMyFire : MonoBehaviour{
+public class LightMyFire : MonoBehaviour {
     
     private Animator animator;
     private GameObject mainChar; 
@@ -15,7 +15,7 @@ public class LightMyFire : MonoBehaviour{
 
     void Update()
     {
-        if (Input.GetButtonUp("Jump") && mainChar.transform.childCount == 1)
+        if (Input.GetButtonUp("Fire1") && mainChar != null && mainChar.transform.childCount == 1)
         {
             Debug.Log("LightFire");
             lightFire();
