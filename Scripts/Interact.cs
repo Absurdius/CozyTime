@@ -9,7 +9,6 @@ public class Interact : MonoBehaviour
     private GameObject carryable;
     private Interactable interactable;
     private Boolean isCarrying = false;
-    private Boolean canInteract = false;
 
     private Vector3 overHeadPosition = new Vector3(0f, 1.25f, 0f);
     private Vector3 putDownPosition = new Vector3(-1.0f, -0.9f, 0f);
@@ -18,9 +17,9 @@ public class Interact : MonoBehaviour
     {
         if (Input.GetButtonUp("Fire1"))
         {
-            if (isCarrying && canInteract) {
-                InteractWith();
-            } else if ( isCarrying && !canInteract) {
+            if (isCarrying && this.interactable != null) {
+                InteractWithAndDestroy();
+            } else if ( isCarrying && this.interactable == null) {
                 PutDown();
             } else if (!isCarrying){
                 PickUp();
@@ -34,21 +33,24 @@ public class Interact : MonoBehaviour
         {
             carryable = other.gameObject;
             Debug.Log("Close to object");
-        } else if (other.gameObject.CompareTag("Interactable")) {
-            foreach(MonoBehaviour b in other.GetComponents<MonoBehaviour>()){
-                if(b is Interactable) { 
-                    this.interactable = b as Interactable;
-                    Debug.Log("Found Interactable");
-                    break; 
-                }
-            }
+        } else if (other.gameObject.CompareTag("Interactable"))
+        {
+            FindInteractable(other);
             Debug.Log("Close to interactable");
         }
     }
 
-    public void OnTriggerExit2D(Collider2D collision)
+    public void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Leaving object");
+        if (other.gameObject.CompareTag("Moveable") && !isCarrying) 
+        {
+            carryable = null;
+            Debug.Log("leaving object"); 
+        }
+        else if (other.gameObject.CompareTag("Interactable"))
+        {
+            interactable = null;
+        }
     }
 
     private void PutDown()
@@ -70,6 +72,29 @@ public class Interact : MonoBehaviour
     private void InteractWith()
     {
         this.interactable.Interact();
+    }    
+    
+    private void InteractWithAndDestroy()
+    {
+        this.interactable.Interact();
+        if (this.carryable != null) { 
+            GameObject.Destroy(this.carryable); 
+            this.carryable = null;
+            isCarrying = false;
+        } 
+
     }
 
+    private void FindInteractable(Collider2D other)
+    {
+        foreach (MonoBehaviour b in other.GetComponents<MonoBehaviour>())
+        {
+            if (b is Interactable)
+            {
+                this.interactable = b as Interactable;
+                Debug.Log("Found Interactable");
+                break;
+            }
+        }
+    }
 }
