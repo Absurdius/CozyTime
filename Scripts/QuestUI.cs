@@ -8,16 +8,13 @@ public class QuestUI : MonoBehaviour
     public Text questInfoText;
     public QuestManager questManager;
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        string questInfo = "Quest Status:\n";
-
-        foreach (Quest quest in questManager.quests)
-            {
-            questInfo += $"{quest.questTitle}: {quest.currentInteractions}/{quest.requiredInteractions}\n";
-            }
-
-        questInfoText.text = questInfo;
-        }
+        questInfoText.text = "Quest Status:\n";
     }
+
+    public void QuestTextUpdate(Quest quest)
+    {
+        questInfoText.text = quest.questTitle;
+    }
+}

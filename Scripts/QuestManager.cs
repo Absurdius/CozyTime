@@ -5,10 +5,11 @@ using UnityEngine;
 public class QuestManager : MonoBehaviour
 {
     public static QuestManager instance;
+    public QuestUI questUI;
 
     public List<Quest> quests = new List<Quest>();
 
-    private void Awake()
+/*     private void Awake()
         {
         if (instance == null)
             {
@@ -18,7 +19,7 @@ public class QuestManager : MonoBehaviour
             {
             Destroy(gameObject);
             }
-        }
+        } */
 
     public void UpdateQuest(string questID)
         {
@@ -27,6 +28,7 @@ public class QuestManager : MonoBehaviour
         if (quest != null)
             {
             quest.UpdateProgress();
+            questUI.QuestTextUpdate(quest);
             Debug.Log("Quest updated: " + quest.questID);
             }
         else

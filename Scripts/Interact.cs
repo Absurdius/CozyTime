@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class Interact : MonoBehaviour
 {
+    public QuestManager questManager;
+
     private GameObject carryable;
     private Interactable interactable;
     private Boolean isCarrying = false;
@@ -21,6 +23,7 @@ public class Interact : MonoBehaviour
         {
             if (isCarrying && this.interactable != null) {
                 InteractWithAndDestroy();
+                questManager.UpdateQuest("Default");
             } else if ( isCarrying && this.interactable == null) {
                 PutDown();
             } else if (!isCarrying){
@@ -68,8 +71,7 @@ public class Interact : MonoBehaviour
             carryable.transform.parent = gameObject.transform;
             carryable.transform.localPosition = overHeadPosition;
             isCarrying = true;
-
-            QuestManager.instance.UpdateQuest("QuestID");
+            questManager.UpdateQuest(carryable.name);
         }
     }
 
