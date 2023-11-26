@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Interact : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Interact : MonoBehaviour
 
     private Vector3 overHeadPosition = new Vector3(0f, 1.25f, 0f);
     private Vector3 putDownPosition = new Vector3(-1.0f, -0.9f, 0f);
+
 
     void Update()
     {
@@ -66,6 +68,8 @@ public class Interact : MonoBehaviour
             carryable.transform.parent = gameObject.transform;
             carryable.transform.localPosition = overHeadPosition;
             isCarrying = true;
+
+            QuestManager.instance.UpdateQuest("QuestID");
         }
     }
 
