@@ -8,7 +8,7 @@ public class Quest
     public string questID;
     public string questTitle;
     public int requiredInteractions;
-    private int currentInteractions;
+    public int currentInteractions;
 
     public void UpdateProgress()
         {
